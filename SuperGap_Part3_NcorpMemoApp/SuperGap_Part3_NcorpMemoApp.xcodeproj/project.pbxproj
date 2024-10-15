@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BBBDE8CD2CBCC95400A33E71 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8C42CBCC95400A33E71 /* OnboardingView.swift */; };
+		BBBDE8CE2CBCC95400A33E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8CA2CBCC95400A33E71 /* ContentView.swift */; };
+		BBBDE8CF2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8CB2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoAppApp.swift */; };
+		BBBDE8D02CBCC95400A33E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBDE8C72CBCC95400A33E71 /* Preview Assets.xcassets */; };
+		BBBDE8D12CBCC95400A33E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBDE8C92CBCC95400A33E71 /* Assets.xcassets */; };
+		BBBDE8DF2CBD319D00A33E71 /* OVSubView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8DE2CBD319D00A33E71 /* OVSubView1.swift */; };
+		BBBDE8E12CBD31B200A33E71 /* OVSubView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8E02CBD31B200A33E71 /* OVSubView2.swift */; };
+		BBBDE8E32CBD31B800A33E71 /* OVSubView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8E22CBD31B800A33E71 /* OVSubView3.swift */; };
+		BBBDE8E52CBDA6B900A33E71 /* OVSubView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8E42CBDA6B900A33E71 /* OVSubView4.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BBBDE8A22CBBE1D400A33E71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +39,18 @@
 		BBBDE8912CBBE1D100A33E71 /* SuperGap_Part3_NcorpMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperGap_Part3_NcorpMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBDE8A12CBBE1D400A33E71 /* SuperGap_Part3_NcorpMemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperGap_Part3_NcorpMemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBDE8AB2CBBE1D400A33E71 /* SuperGap_Part3_NcorpMemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperGap_Part3_NcorpMemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBDE8C42CBCC95400A33E71 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		BBBDE8C72CBCC95400A33E71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBBDE8C92CBCC95400A33E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBBDE8CA2CBCC95400A33E71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBBDE8CB2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperGap_Part3_NcorpMemoAppApp.swift; sourceTree = "<group>"; };
+		BBBDE8DE2CBD319D00A33E71 /* OVSubView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVSubView1.swift; sourceTree = "<group>"; };
+		BBBDE8E02CBD31B200A33E71 /* OVSubView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVSubView2.swift; sourceTree = "<group>"; };
+		BBBDE8E22CBD31B800A33E71 /* OVSubView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVSubView3.swift; sourceTree = "<group>"; };
+		BBBDE8E42CBDA6B900A33E71 /* OVSubView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVSubView4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BBBDE8932CBBE1D100A33E71 /* SuperGap_Part3_NcorpMemoApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SuperGap_Part3_NcorpMemoApp;
-			sourceTree = "<group>";
-		};
 		BBBDE8A42CBBE1D400A33E71 /* SuperGap_Part3_NcorpMemoAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SuperGap_Part3_NcorpMemoAppTests;
@@ -75,7 +91,7 @@
 		BBBDE8882CBBE1D100A33E71 = {
 			isa = PBXGroup;
 			children = (
-				BBBDE8932CBBE1D100A33E71 /* SuperGap_Part3_NcorpMemoApp */,
+				BBBDE8CC2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoApp */,
 				BBBDE8A42CBBE1D400A33E71 /* SuperGap_Part3_NcorpMemoAppTests */,
 				BBBDE8AE2CBBE1D400A33E71 /* SuperGap_Part3_NcorpMemoAppUITests */,
 				BBBDE8922CBBE1D100A33E71 /* Products */,
@@ -92,6 +108,118 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BBBDE8C32CBCC95400A33E71 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDE8CB2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BBBDE8C52CBCC95400A33E71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDE8C62CBCC95400A33E71 /* Onboarding */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BBBDE8C62CBCC95400A33E71 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDE8DD2CBD316D00A33E71 /* OnboardingSubView */,
+				BBBDE8C42CBCC95400A33E71 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		BBBDE8C82CBCC95400A33E71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDE8C72CBCC95400A33E71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBBDE8CC2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDE8DC2CBCCC2300A33E71 /* Model */,
+				BBBDE8D92CBCCACC00A33E71 /* Componets */,
+				BBBDE8C52CBCC95400A33E71 /* View */,
+				BBBDE8D22CBCC96100A33E71 /* Core */,
+				BBBDE8C32CBCC95400A33E71 /* App */,
+				BBBDE8C82CBCC95400A33E71 /* Preview Content */,
+				BBBDE8C92CBCC95400A33E71 /* Assets.xcassets */,
+				BBBDE8CA2CBCC95400A33E71 /* ContentView.swift */,
+			);
+			path = SuperGap_Part3_NcorpMemoApp;
+			sourceTree = "<group>";
+		};
+		BBBDE8D22CBCC96100A33E71 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDE8D62CBCCA6400A33E71 /* Extension */,
+				BBBDE8D52CBCCA5800A33E71 /* Service */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BBBDE8D52CBCCA5800A33E71 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BBBDE8D62CBCCA6400A33E71 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BBBDE8D92CBCCACC00A33E71 /* Componets */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDE8DB2CBCCBF200A33E71 /* NavigationBar */,
+				BBBDE8DA2CBCCAD700A33E71 /* CustomView */,
+			);
+			path = Componets;
+			sourceTree = "<group>";
+		};
+		BBBDE8DA2CBCCAD700A33E71 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		BBBDE8DB2CBCCBF200A33E71 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		BBBDE8DC2CBCCC2300A33E71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBBDE8DD2CBD316D00A33E71 /* OnboardingSubView */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDE8DE2CBD319D00A33E71 /* OVSubView1.swift */,
+				BBBDE8E02CBD31B200A33E71 /* OVSubView2.swift */,
+				BBBDE8E22CBD31B800A33E71 /* OVSubView3.swift */,
+				BBBDE8E42CBDA6B900A33E71 /* OVSubView4.swift */,
+			);
+			path = OnboardingSubView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +234,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BBBDE8932CBBE1D100A33E71 /* SuperGap_Part3_NcorpMemoApp */,
 			);
 			name = SuperGap_Part3_NcorpMemoApp;
 			packageProductDependencies = (
@@ -212,6 +337,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBDE8D02CBCC95400A33E71 /* Preview Assets.xcassets in Resources */,
+				BBBDE8D12CBCC95400A33E71 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +363,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBDE8CD2CBCC95400A33E71 /* OnboardingView.swift in Sources */,
+				BBBDE8E12CBD31B200A33E71 /* OVSubView2.swift in Sources */,
+				BBBDE8E32CBD31B800A33E71 /* OVSubView3.swift in Sources */,
+				BBBDE8E52CBDA6B900A33E71 /* OVSubView4.swift in Sources */,
+				BBBDE8CE2CBCC95400A33E71 /* ContentView.swift in Sources */,
+				BBBDE8DF2CBD319D00A33E71 /* OVSubView1.swift in Sources */,
+				BBBDE8CF2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
