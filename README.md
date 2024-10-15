@@ -1,8 +1,3 @@
----
-title: N사 음성메모앱
-
----
-
 # N사 음성메모앱 
 - 온보딩 화면
 - Todo List 화면 구현
@@ -24,6 +19,11 @@ title: N사 음성메모앱
 
 
 # 구현내용
+
+## 온보딩
+![image](https://hackmd.io/_uploads/ryiX2QK1yg.png)
+- 탭 뷰의 사용이 목적
+
 
 
 
@@ -135,7 +135,16 @@ title: N사 음성메모앱
 > 추가적인 frame이나 alignment 옵션을 통해 크기와 위치를 조정할 수 있음
  
  
- # MVVM
+ # 모디파이어
+ 
+ ![image](https://hackmd.io/_uploads/B1uu3QK11e.png)
 
+strikethrough -> 글 가운데 중간선 긋기
+monospaced -> 글자크기를 일정하게 처리
+
+
+
+![image](https://hackmd.io/_uploads/ryexpQKyke.png)
+renderingMode -> 이미지의 렌더링 형태를 결정함 원본, 템플릿, 시스템설정에 따라 다르게 표시
 
  
