@@ -16,6 +16,7 @@
 		BBBDE8E12CBD31B200A33E71 /* OVSubView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8E02CBD31B200A33E71 /* OVSubView2.swift */; };
 		BBBDE8E32CBD31B800A33E71 /* OVSubView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8E22CBD31B800A33E71 /* OVSubView3.swift */; };
 		BBBDE8E52CBDA6B900A33E71 /* OVSubView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8E42CBDA6B900A33E71 /* OVSubView4.swift */; };
+		BBBDE9062CBF6C1E00A33E71 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE9052CBF6C1E00A33E71 /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		BBBDE8E02CBD31B200A33E71 /* OVSubView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVSubView2.swift; sourceTree = "<group>"; };
 		BBBDE8E22CBD31B800A33E71 /* OVSubView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVSubView3.swift; sourceTree = "<group>"; };
 		BBBDE8E42CBDA6B900A33E71 /* OVSubView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVSubView4.swift; sourceTree = "<group>"; };
+		BBBDE9052CBF6C1E00A33E71 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -175,6 +177,7 @@
 		BBBDE8D62CBCCA6400A33E71 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				BBBDE9052CBF6C1E00A33E71 /* Color+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				BBBDE8CD2CBCC95400A33E71 /* OnboardingView.swift in Sources */,
 				BBBDE8E12CBD31B200A33E71 /* OVSubView2.swift in Sources */,
 				BBBDE8E32CBD31B800A33E71 /* OVSubView3.swift in Sources */,
+				BBBDE9062CBF6C1E00A33E71 /* Color+Extensions.swift in Sources */,
 				BBBDE8E52CBDA6B900A33E71 /* OVSubView4.swift in Sources */,
 				BBBDE8CE2CBCC95400A33E71 /* ContentView.swift in Sources */,
 				BBBDE8DF2CBD319D00A33E71 /* OVSubView1.swift in Sources */,
