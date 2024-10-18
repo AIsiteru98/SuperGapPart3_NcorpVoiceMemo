@@ -11,7 +11,7 @@ import SwiftUI
 struct SuperGap_Part3_NcorpMemoAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LuanchScreen()
         }
     }
 }
