@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		BB35BE9E2CC0D2DB009D0E14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35BE9D2CC0D2DB009D0E14 /* Constants.swift */; };
+		BB35BEA12CC27887009D0E14 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35BEA02CC27887009D0E14 /* Path.swift */; };
+		BB35BEA32CC27895009D0E14 /* PathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35BEA22CC27894009D0E14 /* PathType.swift */; };
+		BB35BEA82CC286D8009D0E14 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35BEA72CC286D8009D0E14 /* HomeView.swift */; };
+		BB35BEAA2CC286E9009D0E14 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35BEA92CC286E9009D0E14 /* MemoView.swift */; };
+		BB35BEAC2CC286EB009D0E14 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35BEAB2CC286EB009D0E14 /* TodoView.swift */; };
 		BBBDE8CD2CBCC95400A33E71 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8C42CBCC95400A33E71 /* OnboardingView.swift */; };
 		BBBDE8CE2CBCC95400A33E71 /* LuanchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8CA2CBCC95400A33E71 /* LuanchScreen.swift */; };
 		BBBDE8CF2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8CB2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoAppApp.swift */; };
@@ -36,6 +41,11 @@
 
 /* Begin PBXFileReference section */
 		BB35BE9D2CC0D2DB009D0E14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BB35BEA02CC27887009D0E14 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		BB35BEA22CC27894009D0E14 /* PathType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathType.swift; sourceTree = "<group>"; };
+		BB35BEA72CC286D8009D0E14 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BB35BEA92CC286E9009D0E14 /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
+		BB35BEAB2CC286EB009D0E14 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		BBB8CE2B2CC0C6E3001F1685 /* SuperGap-Part3-NcorpMemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SuperGap-Part3-NcorpMemoApp-Info.plist"; sourceTree = SOURCE_ROOT; };
 		BBBDE8912CBBE1D100A33E71 /* SuperGap_Part3_NcorpMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperGap_Part3_NcorpMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBDE8A12CBBE1D400A33E71 /* SuperGap_Part3_NcorpMemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperGap_Part3_NcorpMemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +97,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB35BE9F2CC27861009D0E14 /* Path */ = {
+			isa = PBXGroup;
+			children = (
+				BB35BEA02CC27887009D0E14 /* Path.swift */,
+				BB35BEA22CC27894009D0E14 /* PathType.swift */,
+			);
+			path = Path;
+			sourceTree = "<group>";
+		};
+		BB35BEA42CC286AC009D0E14 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BB35BEA72CC286D8009D0E14 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BB35BEA52CC286B5009D0E14 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				BB35BEA92CC286E9009D0E14 /* MemoView.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		BB35BEA62CC286C3009D0E14 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				BB35BEAB2CC286EB009D0E14 /* TodoView.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
 		BBBDE8882CBBE1D100A33E71 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +161,9 @@
 		BBBDE8C52CBCC95400A33E71 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BB35BEA62CC286C3009D0E14 /* Todo */,
+				BB35BEA52CC286B5009D0E14 /* Memo */,
+				BB35BEA42CC286AC009D0E14 /* Home */,
 				BBBDE8C62CBCC95400A33E71 /* Onboarding */,
 			);
 			path = View;
@@ -208,6 +254,7 @@
 		BBBDE8DC2CBCCC2300A33E71 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BB35BE9F2CC27861009D0E14 /* Path */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -362,7 +409,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB35BEA82CC286D8009D0E14 /* HomeView.swift in Sources */,
+				BB35BEA32CC27895009D0E14 /* PathType.swift in Sources */,
 				BBBDE8CD2CBCC95400A33E71 /* OnboardingView.swift in Sources */,
+				BB35BEAA2CC286E9009D0E14 /* MemoView.swift in Sources */,
+				BB35BEA12CC27887009D0E14 /* Path.swift in Sources */,
+				BB35BEAC2CC286EB009D0E14 /* TodoView.swift in Sources */,
 				BBBDE9062CBF6C1E00A33E71 /* Color+Extensions.swift in Sources */,
 				BBBDE9282CC0B76F00A33E71 /* OnboardingViewModel.swift in Sources */,
 				BB35BE9E2CC0D2DB009D0E14 /* Constants.swift in Sources */,
