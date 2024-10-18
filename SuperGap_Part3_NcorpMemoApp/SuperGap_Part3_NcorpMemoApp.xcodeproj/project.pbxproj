@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB35BE9E2CC0D2DB009D0E14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35BE9D2CC0D2DB009D0E14 /* Constants.swift */; };
+		BB35BEA12CC27887009D0E14 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35BEA02CC27887009D0E14 /* Path.swift */; };
+		BB35BEA32CC27895009D0E14 /* PathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35BEA22CC27894009D0E14 /* PathType.swift */; };
+		BB35BEA82CC286D8009D0E14 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35BEA72CC286D8009D0E14 /* HomeView.swift */; };
+		BB35BEAA2CC286E9009D0E14 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35BEA92CC286E9009D0E14 /* MemoView.swift */; };
+		BB35BEAC2CC286EB009D0E14 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35BEAB2CC286EB009D0E14 /* TodoView.swift */; };
 		BBBDE8CD2CBCC95400A33E71 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8C42CBCC95400A33E71 /* OnboardingView.swift */; };
-		BBBDE8CE2CBCC95400A33E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8CA2CBCC95400A33E71 /* ContentView.swift */; };
+		BBBDE8CE2CBCC95400A33E71 /* LuanchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8CA2CBCC95400A33E71 /* LuanchScreen.swift */; };
 		BBBDE8CF2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8CB2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoAppApp.swift */; };
 		BBBDE8D02CBCC95400A33E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBDE8C72CBCC95400A33E71 /* Preview Assets.xcassets */; };
 		BBBDE8D12CBCC95400A33E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBDE8C92CBCC95400A33E71 /* Assets.xcassets */; };
-		BBBDE8DF2CBD319D00A33E71 /* OVSubView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8DE2CBD319D00A33E71 /* OVSubView1.swift */; };
-		BBBDE8E12CBD31B200A33E71 /* OVSubView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8E02CBD31B200A33E71 /* OVSubView2.swift */; };
-		BBBDE8E32CBD31B800A33E71 /* OVSubView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8E22CBD31B800A33E71 /* OVSubView3.swift */; };
-		BBBDE8E52CBDA6B900A33E71 /* OVSubView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE8E42CBDA6B900A33E71 /* OVSubView4.swift */; };
+		BBBDE9062CBF6C1E00A33E71 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE9052CBF6C1E00A33E71 /* Color+Extensions.swift */; };
+		BBBDE9282CC0B76F00A33E71 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDE9272CC0B76F00A33E71 /* OnboardingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +40,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB35BE9D2CC0D2DB009D0E14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BB35BEA02CC27887009D0E14 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		BB35BEA22CC27894009D0E14 /* PathType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathType.swift; sourceTree = "<group>"; };
+		BB35BEA72CC286D8009D0E14 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BB35BEA92CC286E9009D0E14 /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
+		BB35BEAB2CC286EB009D0E14 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		BBB8CE2B2CC0C6E3001F1685 /* SuperGap-Part3-NcorpMemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SuperGap-Part3-NcorpMemoApp-Info.plist"; sourceTree = SOURCE_ROOT; };
 		BBBDE8912CBBE1D100A33E71 /* SuperGap_Part3_NcorpMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperGap_Part3_NcorpMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBDE8A12CBBE1D400A33E71 /* SuperGap_Part3_NcorpMemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperGap_Part3_NcorpMemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBDE8AB2CBBE1D400A33E71 /* SuperGap_Part3_NcorpMemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperGap_Part3_NcorpMemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBDE8C42CBCC95400A33E71 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		BBBDE8C72CBCC95400A33E71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BBBDE8C92CBCC95400A33E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BBBDE8CA2CBCC95400A33E71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBBDE8CA2CBCC95400A33E71 /* LuanchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuanchScreen.swift; sourceTree = "<group>"; };
 		BBBDE8CB2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperGap_Part3_NcorpMemoAppApp.swift; sourceTree = "<group>"; };
-		BBBDE8DE2CBD319D00A33E71 /* OVSubView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVSubView1.swift; sourceTree = "<group>"; };
-		BBBDE8E02CBD31B200A33E71 /* OVSubView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVSubView2.swift; sourceTree = "<group>"; };
-		BBBDE8E22CBD31B800A33E71 /* OVSubView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVSubView3.swift; sourceTree = "<group>"; };
-		BBBDE8E42CBDA6B900A33E71 /* OVSubView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVSubView4.swift; sourceTree = "<group>"; };
+		BBBDE9052CBF6C1E00A33E71 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		BBBDE9272CC0B76F00A33E71 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -88,6 +97,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB35BE9F2CC27861009D0E14 /* Path */ = {
+			isa = PBXGroup;
+			children = (
+				BB35BEA02CC27887009D0E14 /* Path.swift */,
+				BB35BEA22CC27894009D0E14 /* PathType.swift */,
+			);
+			path = Path;
+			sourceTree = "<group>";
+		};
+		BB35BEA42CC286AC009D0E14 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BB35BEA72CC286D8009D0E14 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BB35BEA52CC286B5009D0E14 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				BB35BEA92CC286E9009D0E14 /* MemoView.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		BB35BEA62CC286C3009D0E14 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				BB35BEAB2CC286EB009D0E14 /* TodoView.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
 		BBBDE8882CBBE1D100A33E71 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +161,9 @@
 		BBBDE8C52CBCC95400A33E71 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BB35BEA62CC286C3009D0E14 /* Todo */,
+				BB35BEA52CC286B5009D0E14 /* Memo */,
+				BB35BEA42CC286AC009D0E14 /* Home */,
 				BBBDE8C62CBCC95400A33E71 /* Onboarding */,
 			);
 			path = View;
@@ -129,6 +174,8 @@
 			children = (
 				BBBDE8DD2CBD316D00A33E71 /* OnboardingSubView */,
 				BBBDE8C42CBCC95400A33E71 /* OnboardingView.swift */,
+				BBBDE9272CC0B76F00A33E71 /* OnboardingViewModel.swift */,
+				BB35BE9D2CC0D2DB009D0E14 /* Constants.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -144,6 +191,7 @@
 		BBBDE8CC2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				BBB8CE2B2CC0C6E3001F1685 /* SuperGap-Part3-NcorpMemoApp-Info.plist */,
 				BBBDE8DC2CBCCC2300A33E71 /* Model */,
 				BBBDE8D92CBCCACC00A33E71 /* Componets */,
 				BBBDE8C52CBCC95400A33E71 /* View */,
@@ -151,7 +199,7 @@
 				BBBDE8C32CBCC95400A33E71 /* App */,
 				BBBDE8C82CBCC95400A33E71 /* Preview Content */,
 				BBBDE8C92CBCC95400A33E71 /* Assets.xcassets */,
-				BBBDE8CA2CBCC95400A33E71 /* ContentView.swift */,
+				BBBDE8CA2CBCC95400A33E71 /* LuanchScreen.swift */,
 			);
 			path = SuperGap_Part3_NcorpMemoApp;
 			sourceTree = "<group>";
@@ -175,6 +223,7 @@
 		BBBDE8D62CBCCA6400A33E71 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				BBBDE9052CBF6C1E00A33E71 /* Color+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -205,6 +254,7 @@
 		BBBDE8DC2CBCCC2300A33E71 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BB35BE9F2CC27861009D0E14 /* Path */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -212,10 +262,6 @@
 		BBBDE8DD2CBD316D00A33E71 /* OnboardingSubView */ = {
 			isa = PBXGroup;
 			children = (
-				BBBDE8DE2CBD319D00A33E71 /* OVSubView1.swift */,
-				BBBDE8E02CBD31B200A33E71 /* OVSubView2.swift */,
-				BBBDE8E22CBD31B800A33E71 /* OVSubView3.swift */,
-				BBBDE8E42CBDA6B900A33E71 /* OVSubView4.swift */,
 			);
 			path = OnboardingSubView;
 			sourceTree = "<group>";
@@ -363,12 +409,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB35BEA82CC286D8009D0E14 /* HomeView.swift in Sources */,
+				BB35BEA32CC27895009D0E14 /* PathType.swift in Sources */,
 				BBBDE8CD2CBCC95400A33E71 /* OnboardingView.swift in Sources */,
-				BBBDE8E12CBD31B200A33E71 /* OVSubView2.swift in Sources */,
-				BBBDE8E32CBD31B800A33E71 /* OVSubView3.swift in Sources */,
-				BBBDE8E52CBDA6B900A33E71 /* OVSubView4.swift in Sources */,
-				BBBDE8CE2CBCC95400A33E71 /* ContentView.swift in Sources */,
-				BBBDE8DF2CBD319D00A33E71 /* OVSubView1.swift in Sources */,
+				BB35BEAA2CC286E9009D0E14 /* MemoView.swift in Sources */,
+				BB35BEA12CC27887009D0E14 /* Path.swift in Sources */,
+				BB35BEAC2CC286EB009D0E14 /* TodoView.swift in Sources */,
+				BBBDE9062CBF6C1E00A33E71 /* Color+Extensions.swift in Sources */,
+				BBBDE9282CC0B76F00A33E71 /* OnboardingViewModel.swift in Sources */,
+				BB35BE9E2CC0D2DB009D0E14 /* Constants.swift in Sources */,
+				BBBDE8CE2CBCC95400A33E71 /* LuanchScreen.swift in Sources */,
 				BBBDE8CF2CBCC95400A33E71 /* SuperGap_Part3_NcorpMemoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,11 +582,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SuperGap_Part3_NcorpMemoApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SuperGap-Part3-NcorpMemoApp-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,11 +611,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SuperGap_Part3_NcorpMemoApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SuperGap-Part3-NcorpMemoApp-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
